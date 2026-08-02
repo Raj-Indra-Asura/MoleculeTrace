@@ -90,7 +90,7 @@ Tick a week only when its `CHECKPOINT.md` passes.
 |------|-------|--------|-----------|-----------|--------|
 | 00 | Orientation and Project Setup | ⬜ Not started | | | |
 | 01 | Requirements and Architecture | ⬜ Not started | | | |
-| 02 | ER Modelling the Molecular Domain | ⬜ Not started | | | |
+| 02 | ER and EER Design | ⬜ Not started | | | |
 | 03 | Logical Design and DDL | ⬜ Not started | | | |
 | 04 | Functional Dependencies and Normalization | ⬜ Not started | | | |
 | 05 | SQL Fundamentals and Data Loading | ⬜ Not started | | | |
