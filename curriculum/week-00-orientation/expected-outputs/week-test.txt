@@ -1,0 +1,12 @@
+# Expected shape of `make test-week WEEK=week-00-orientation`.
+# Paths, versions and timing vary.
+
+============================= test session starts ==============================
+platform linux -- Python 3.11.x, pytest-8.3.x, pluggy-1.5.x
+rootdir: /path/to/MoleculeTrace
+configfile: pyproject.toml
+collected 1 item
+
+curriculum/week-00-orientation/tests/test_health.py .                    [100%]
+
+============================== 1 passed in 0.30s ===============================

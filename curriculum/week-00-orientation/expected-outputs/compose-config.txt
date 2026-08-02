@@ -1,0 +1,30 @@
+# Shape of `docker compose config` for starter/docker-compose.check.yml once the
+# TODOs are replaced. Your values come from .env, so the user, password and
+# database name may differ. Key ordering and formatting may also differ between
+# Compose versions — only the structure matters.
+
+name: week-00-orientation
+services:
+  check-db:
+    environment:
+      POSTGRES_DB: moleculetrace
+      POSTGRES_PASSWORD: <from .env>
+      POSTGRES_USER: moleculetrace
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U moleculetrace -d moleculetrace
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    image: postgres:16
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5433"
+        protocol: tcp
+networks:
+  default:
+    name: week-00-orientation_default
