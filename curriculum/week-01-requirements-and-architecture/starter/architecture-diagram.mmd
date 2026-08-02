@@ -1,0 +1,25 @@
+%% Starter — three-tier architecture diagram for docs/03_architecture.md
+%% Replace every TODO: label. Keep protocols on the arrows, and keep the
+%% presentation tier from touching the data tier directly.
+%% Preview with https://mermaid.live/ or a Mermaid-aware Markdown viewer.
+
+flowchart TD
+    subgraph PRESENTATION["Presentation tier"]
+        UI["TODO: name the client(s) and who uses them"]
+    end
+
+    subgraph APPLICATION["Application tier"]
+        API["TODO: name the service and what it validates"]
+        ETL["TODO: ML / ETL batch component"]
+    end
+
+    subgraph DATA["Data tier"]
+        DB[("TODO: PostgreSQL — what it owns")]
+    end
+
+    UI -->|"TODO: protocol"| API
+    API -->|"TODO: protocol"| DB
+    ETL -->|"TODO: protocol"| DB
+
+    %% TODO: add the arrow that must NOT exist, as a comment, and say why:
+    %% e.g. UI -.->|SQL| DB  — rejected because ...

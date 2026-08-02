@@ -9,9 +9,11 @@ an instructor, or to revise a specific examinable topic.
 | Syllabus topic | Week |
 |----------------|------|
 | Database systems vs. file systems; DBMS architecture; three-schema architecture | week-00, week-01 |
-| Data models; instances and schemas; data independence | week-01 |
-| Relational model: relations, tuples, attributes, domains | week-01 |
-| Keys: super, candidate, primary, foreign | week-01, week-03 |
+| Two-tier and three-tier architectures; database users and administrators | week-01 |
+| Requirements analysis: functional and non-functional requirements | week-01 |
+| Data models; instances and schemas; levels of abstraction; data independence | week-01, week-02 |
+| Relational model: relations, tuples, attributes, domains | week-02, week-03 |
+| Keys: super, candidate, primary, foreign | week-02, week-03 |
 | Integrity constraints: entity and referential integrity | week-03, week-09 |
 
 ## Unit 2 — Conceptual and logical design

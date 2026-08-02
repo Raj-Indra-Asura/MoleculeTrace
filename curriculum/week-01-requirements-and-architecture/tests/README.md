@@ -3,7 +3,7 @@
 Automated validation for this week, run with:
 
 ```bash
-make test-week WEEK=week-01-relational-model-and-environment
+make test-week WEEK=week-01-requirements-and-architecture
 ```
 
 Tests check the state your work should produce — tables, constraints, query

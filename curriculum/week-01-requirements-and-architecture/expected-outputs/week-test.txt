@@ -1,0 +1,15 @@
+Expected tail of `make test-week WEEK=week-01-requirements-and-architecture`
+once the three documents are complete. Test count may grow; failures may not.
+
+    ===================== test session starts ======================
+    ...
+    curriculum/week-01-requirements-and-architecture/tests/test_design_docs.py ....................
+
+    ====================== 18 passed in 0.0Xs ======================
+
+While the documents are still skeletons the failures name the missing part, for
+example:
+
+    FAILED tests/test_design_docs.py::test_functional_requirements_present
+      docs/02_requirements.md defines 0 functional requirements; at least 12 are
+      required (README section 7A).
