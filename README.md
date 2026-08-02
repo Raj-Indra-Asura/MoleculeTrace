@@ -89,7 +89,7 @@ Tick a week only when its `CHECKPOINT.md` passes.
 | Week | Title | Status | Checkpoint | Rubric /10 | Commit |
 |------|-------|--------|-----------|-----------|--------|
 | 00 | Orientation and Project Setup | ⬜ Not started | | | |
-| 01 | The Relational Model and a Reproducible Environment | ⬜ Not started | | | |
+| 01 | Requirements and Architecture | ⬜ Not started | | | |
 | 02 | ER Modelling the Molecular Domain | ⬜ Not started | | | |
 | 03 | Logical Design and DDL | ⬜ Not started | | | |
 | 04 | Functional Dependencies and Normalization | ⬜ Not started | | | |

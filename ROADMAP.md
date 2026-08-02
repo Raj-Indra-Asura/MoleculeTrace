@@ -11,7 +11,7 @@ as optional and never assumed by later weeks.
 
 | Phase | Weeks | Theme | Project outcome |
 |-------|-------|-------|-----------------|
-| 0. Foundations | 00–03 | Environment, relational model, ER design, DDL | A running PostgreSQL schema for molecules, targets and assays |
+| 0. Foundations | 00–03 | Environment, requirements and architecture, ER design, DDL | A documented design and a running PostgreSQL schema for molecules, targets and assays |
 | 1. Design quality | 04–06 | Normalization, SQL basics, relational algebra | A normalised, query-ready schema with a documented algebra layer |
 | 2. Query depth | 07–10 | Joins, aggregation, subqueries, CTEs, windows, views, server-side logic | Analytical queries and reusable views over activity data |
 | 3. Application layer | 11–13 | Transactions, psycopg, FastAPI | A transactional Python/FastAPI service over the database |
@@ -25,7 +25,7 @@ as optional and never assumed by later weeks.
 | Week | Folder | Title |
 |------|--------|-------|
 | 00 | `curriculum/week-00-orientation/` | Orientation and Project Setup |
-| 01 | `curriculum/week-01-relational-model-and-environment/` | The Relational Model and a Reproducible Environment |
+| 01 | `curriculum/week-01-requirements-and-architecture/` | Requirements and Architecture |
 | 02 | `curriculum/week-02-er-modelling-molecular-domain/` | ER Modelling the Molecular Domain |
 | 03 | `curriculum/week-03-logical-design-and-ddl/` | Logical Design and DDL |
 | 04 | `curriculum/week-04-normalization/` | Functional Dependencies and Normalization |

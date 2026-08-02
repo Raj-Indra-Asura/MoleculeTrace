@@ -4,7 +4,9 @@ Design documentation for MoleculeTrace.
 
 | Path | Contents |
 |------|----------|
-| `architecture.md` | System overview: database, backend, ML, dashboard |
+| `01_problem_statement.md` | The problem, scope, non-goals, actors and success criteria (week 01) |
+| `02_requirements.md` | Functional and non-functional requirements, traceability, risk register, definition of done (week 01) |
+| `03_architecture.md` | Three-tier architecture, responsibilities per tier, file system versus DBMS, data flow, levels of abstraction (week 01) |
 | `data-model.md` | Entity definitions, ER diagram and design decisions |
 | `decisions/` | Short architecture decision records, `NNN-title.md` |
 | `portfolio/week-XX/` | Evidence captured each week: diagrams, plans, metric tables, screenshots |
