@@ -3,7 +3,7 @@
 Automated validation for this week, run with:
 
 ```bash
-make test-week WEEK=week-02-er-modelling-molecular-domain
+make test-week WEEK=week-02-er-and-eer-design
 ```
 
 Tests check the state your work should produce — tables, constraints, query

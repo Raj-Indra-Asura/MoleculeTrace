@@ -26,7 +26,7 @@ as optional and never assumed by later weeks.
 |------|--------|-------|
 | 00 | `curriculum/week-00-orientation/` | Orientation and Project Setup |
 | 01 | `curriculum/week-01-requirements-and-architecture/` | Requirements and Architecture |
-| 02 | `curriculum/week-02-er-modelling-molecular-domain/` | ER Modelling the Molecular Domain |
+| 02 | `curriculum/week-02-er-and-eer-design/` | ER and EER Design |
 | 03 | `curriculum/week-03-logical-design-and-ddl/` | Logical Design and DDL |
 | 04 | `curriculum/week-04-normalization/` | Functional Dependencies and Normalization |
 | 05 | `curriculum/week-05-sql-fundamentals/` | SQL Fundamentals and Data Loading |

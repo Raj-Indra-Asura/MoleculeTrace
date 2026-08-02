@@ -1,0 +1,60 @@
+%% Starter — IMPROVED EER model (week 02, independent work A)
+%%
+%% This is a skeleton, not a solution. Start from your own er-initial.mmd and
+%% change it deliberately; do not redraw from memory, because the point of the
+%% deliverable is the *difference* between the two diagrams.
+%%
+%% Every TODO below is a repair the improved model must make. Delete a TODO only
+%% when the diagram itself shows the repair, and record the repair in the
+%% before/after list in docs/data-model.md section 4.
+
+erDiagram
+
+    %% ------------------------------------------------------------------ %%
+    %% Repair 1 — multivalued attributes
+    %% No multivalued attribute may survive. Each becomes an entity set or a
+    %% relationship set.
+    %% TODO: extract the molecule-synonym multivalued attribute.
+    %% TODO: extract the user-role multivalued attribute.
+    %% ------------------------------------------------------------------ %%
+
+    %% ------------------------------------------------------------------ %%
+    %% Repair 2 — descriptive attributes on M:N relationships
+    %% A measured value that belongs to a pairing lives on an associative
+    %% entity, not on either participant.
+    %% TODO: promote the molecule/descriptor-type pairing.
+    %% TODO: decide whether dataset-version membership carries attributes.
+    %% ------------------------------------------------------------------ %%
+
+    %% ------------------------------------------------------------------ %%
+    %% Repair 3 — weak entities
+    %% Mermaid has no partial-key notation. Mark the weak entity with a comment
+    %% and name its partial key here; the argument goes in
+    %% docs/data-model.md section 7.
+    %% TODO: mark DatasetVersion, its owner and its partial key.
+    %% TODO: state your verdict for MoleculeSynonym and ModelVersion.
+    %% ------------------------------------------------------------------ %%
+
+    %% ------------------------------------------------------------------ %%
+    %% Repair 4 — specialisation / generalisation
+    %% Mermaid has no subclass triangle. Represent the hierarchy with an
+    %% "is a" relationship per subclass and a comment naming the constraints.
+    %% TODO: apply your user/role decision (see docs/data-model.md section 8)
+    %% TODO: state disjoint or overlapping, total or partial.
+    %% ------------------------------------------------------------------ %%
+
+    %% ------------------------------------------------------------------ %%
+    %% Repair 5 — redundancy
+    %% TODO: delete every attribute reachable by navigating a relationship.
+    %% TODO: delete every relationship implied by a path that cannot disagree.
+    %% TODO: label every remaining derived attribute as derived, and say in
+    %%       docs/data-model.md who recomputes it.
+    %% ------------------------------------------------------------------ %%
+
+    %% ------------------------------------------------------------------ %%
+    %% The diagram itself
+    %% ------------------------------------------------------------------ %%
+
+    %% TODO: entity blocks, with one attribute line per attribute you keep.
+    %% TODO: relationship lines, each with a verb phrase and a cardinality
+    %%       marker that matches the row for it in the cardinality table.

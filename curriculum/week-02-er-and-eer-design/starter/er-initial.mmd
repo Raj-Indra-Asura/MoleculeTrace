@@ -1,0 +1,53 @@
+%% Starter — INITIAL ER model (week 02, guided work step 4)
+%%
+%% This is a skeleton, not a solution. Replace every TODO. It is meant to be
+%% imperfect: leave the multivalued attributes and the redundancy you have not
+%% yet noticed visible, so that the improved EER model in starter/eer-improved.mmd
+%% has something real to improve on.
+%%
+%% Render it at https://mermaid.live/ before committing.
+%%
+%% Mermaid cannot express composite, multivalued or derived attributes, subclass
+%% hierarchies or partial keys. Record those in the tables of docs/data-model.md
+%% and label each attribute below with a trailing comment where it applies.
+%%
+%% Cardinality markers you will need:
+%%   ||--o{  one to zero-or-many      ||--|{  one to one-or-many
+%%   ||--o|  one to zero-or-one       }o--o{  many to many
+%%
+%% Cover exactly these sixteen concepts: UserAccount, Role, Molecule,
+%% MoleculeSynonym, DescriptorType, MoleculeDescriptor, BiologicalTarget, Assay,
+%% ActivityObservation, Dataset, DatasetVersion, Experiment, ModelVersion,
+%% Prediction, PredictionValidation, AuditLog.
+
+erDiagram
+
+    %% ------------------------------------------------------------------ %%
+    %% Entity sets. One block per entity set you decided to keep.
+    %% ------------------------------------------------------------------ %%
+
+    MOLECULE {
+        string canonical_smiles "TODO: key? state why"
+        string TODO_attribute "TODO: label simple / composite / multivalued / derived"
+    }
+
+    %% TODO: add a block for every other entity set you declared in step 2 of
+    %% README section 6. If you decided a concept is an attribute or a
+    %% relationship rather than an entity set, do not add a block for it — say so
+    %% in docs/data-model.md section 1 instead.
+
+    %% ------------------------------------------------------------------ %%
+    %% Relationship sets. Every line needs a verb phrase that reads left to
+    %% right, and every line needs its two-direction sentence in
+    %% starter/relationship-narratives.md.
+    %% ------------------------------------------------------------------ %%
+
+    %% Example of the required shape (replace it — it is not the answer):
+    %% BIOLOGICAL_TARGET ||--o{ ASSAY : "TODO verb phrase"
+
+    %% TODO: molecules and their synonyms
+    %% TODO: molecules and their descriptor values, and descriptor types
+    %% TODO: targets, assays and activity observations
+    %% TODO: datasets, dataset versions and their membership
+    %% TODO: experiments, model versions, predictions and validations
+    %% TODO: user accounts, roles and audit-log entries

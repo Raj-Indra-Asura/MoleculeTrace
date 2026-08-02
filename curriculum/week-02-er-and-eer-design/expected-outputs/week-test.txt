@@ -1,0 +1,19 @@
+Expected tail of `make test-week WEEK=week-02-er-and-eer-design` once
+`docs/data-model.md` is complete. Test count may grow; failures may not.
+
+    ===================== test session starts ======================
+    ...
+    curriculum/week-02-er-and-eer-design/tests/test_data_model.py ..................
+
+    ====================== 18 passed in 0.0Xs ======================
+
+While the document is still a skeleton the failures name the missing part, for
+example:
+
+    FAILED tests/test_data_model.py::test_cardinality_table_covers_enough_relationships
+      docs/data-model.md declares 0 relationships with a cardinality of 1:N;
+      at least 6 are required (README section 7B).
+
+    FAILED tests/test_data_model.py::test_participation_is_stated_on_both_sides
+      Relationship 'produces' does not state participation for both sides;
+      each cell must be 'total' or 'partial' (README section 7C).
