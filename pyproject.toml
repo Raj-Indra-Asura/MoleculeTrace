@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moleculetrace"
+version = "0.1.0"
+description = "MoleculeTrace Learning System: a project-based DBMS course built on a molecular ML experiment registry."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.6",
+    "psycopg[binary]>=3.2.3",
+    "pydantic>=2.9.2",
+    "pydantic-settings>=2.5.2",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.39.0",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.5.2",
+    "joblib>=1.4.2",
+    "rdkit>=2024.3.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.3",
+    "httpx>=0.27.2",
+    "ruff>=0.6.9",
+]
+
+[tool.setuptools]
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["project/tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [".venv", "project/ml/notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
