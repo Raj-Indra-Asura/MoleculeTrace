@@ -1,0 +1,8 @@
+# Expected output of `python scripts/check_db_connection.py`.
+# Host, port, database name and the PostgreSQL patch version vary with your .env.
+
+# Success (exit status 0), one line:
+OK connected to moleculetrace on localhost:5432 — PostgreSQL 16.4 (Debian 16.4-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+
+# Failure with the database stopped (exit status 1), one line beginning FAIL:
+FAIL cannot connect to moleculetrace on localhost:5432 — connection failed: Connection refused
