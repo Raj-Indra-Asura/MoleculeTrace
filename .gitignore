@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data (keep the folders, ignore the payloads)
+project/data/raw/*
+project/data/processed/*
+!project/data/**/.gitkeep
+!project/data/**/README.md
+*.sqlite
+*.db
+*.dump
+*.sql.gz
+
+# ML artefacts
+project/ml/models/*.joblib
+project/ml/models/*.pkl
+mlruns/
+
+# Database / Docker volumes
+pgdata/
+postgres-data/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
